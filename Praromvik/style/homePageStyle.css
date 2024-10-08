@@ -1,0 +1,176 @@
+/*---
+Web Structure
+
+html
+	head
+		meta
+		meta
+		title - title
+		link 
+
+	head
+	body
+		div class='mainDiv'
+			div id='homePageImage' --image-- div
+			div class='childDiv'
+				nav
+					li --links-- li
+				nav
+			div
+		div
+	body
+html
+---*/
+
+
+body {
+	background-color: rgba(0, 0, 0, 1.0);
+}
+
+.mainDiv {
+	position: relative;
+}
+
+#frontCorner {
+	display: inline-flex;
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	padding: 10px;
+}
+
+#frontCorner img {
+	display: flex;
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+	padding: 5px;
+}
+
+#frontCorner p {
+	font-size: 35px;
+	display: flex;
+	padding: 0;
+}
+
+#homePageImage {
+	text-align: center;
+}
+
+#homePageImage img {
+	max-width: 95%;
+	height: auto;
+}
+
+.childDiv {
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	padding: 10px;
+}
+
+.navbar {
+	padding: 4px 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	}
+
+.navbar li {
+	display: inline-block;
+	padding: 1px 4px;
+	margin: 5px 20px;
+	list-style: none;
+}
+
+.navbar a {
+	color: rgba(255, 255, 255, 1);
+}
+
+#frontCorner a {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: tomato;
+}
+
+.headingText {
+	/*position: absolute;
+	top: 50px;
+	left: 500px;
+	padding: 10px;*/
+	position: absolute;
+	/*display: inline-flex;*/
+	color: white;
+	font-size: 50px;
+	padding: 10px;
+	top: 200px;
+	left: 100px;
+	width: 450px;
+	height: 200px;
+	/* */
+}
+
+.headingText p {
+	display: inline;
+}
+
+#frontFloat {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	width: 300px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+}
+
+.secondDiv {
+	display: flex;
+	color: whitesmoke;
+}
+#secongDivFirstItem {
+	position: relative;
+	left: 10px;
+	width: 30%;
+	height: 150px;
+	margin: 20px;
+}
+#secondDivSecondItem {
+	text-align: left;
+	right: 10px;
+	left: 100%;
+	width: 70%;
+	height: 150px;
+	margin: 20px;
+	font-size: 30px;
+}
+
+#secondDivSecondItem a {
+	font-size: 15px;
+	padding: 4px 15px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#insideSecDivItemFirst {
+	position: absolute;
+	top: 20px;
+}
+
+#insideSecDivItemSecond {
+	position: absolute;
+	top: 90px;
+}
